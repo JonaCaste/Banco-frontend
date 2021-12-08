@@ -11,7 +11,9 @@
         <img src="./assets/menus.png">
       </div> 
     </div>
-    <router-view v-on:completedLogin="completedLogin"></router-view> <!-- Carga el componente de lo ultimo de la ruta -->
+    <router-view v-on:completedLogin="completedLogin"></router-view>
+    <!-- router-view Carga el componente de lo ultimo que esta en la ruta ruta -->
+    <!--:completedLogin es el evento que emite el hijo y carga completedLogin -->
   </div>
 </template>
 
