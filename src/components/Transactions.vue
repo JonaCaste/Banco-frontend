@@ -84,20 +84,20 @@ export default {
         transactionByUsername: {
             query: gql`
                 query TransactionByUsername($username: String!) {
-                transactionByUsername(username: $username) {
+                    transactionByUsername(username: $username) {
                             id
                             date
                             usernameDestiny
                             usernameOrigin
                             value
-                        }
-                        }
-                    `,
-                    variables(){
-                        return {
-                            username: this.username
-                        }
                     }
+                }
+            `,
+                variables(){
+                    return {
+                        username: this.username
+                    }
+                }
         }
     },
     methods: {

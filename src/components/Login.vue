@@ -75,15 +75,15 @@ export default {
 
 <style >
     .background{
-        background-image: url("https://images.pexels.com/photos/351264/pexels-photo-351264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-        height: calc(100vh - 54px);
+        /* background-image: url("https://images.pexels.com/photos/351264/pexels-photo-351264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+        height: calc(100vh - 80px);
     }
     .form{
         position: absolute;
         top: 50%;
         left: 50%;
         background-color: white;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, calc(-50% + 40px));
         padding: 80px 50px;
         border-radius: 10px;
     }
